@@ -1,0 +1,49 @@
+{
+    "frontend": [
+      {
+        "name": "HTML",
+        "icon": "/src/assets/icons/htmlL.jpg"
+      },
+      {
+        "name": "CSS",
+        "icon": "/src/assets/icons/cssL.jpg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "/src/assets/icons/jsL.jpg"
+      },
+      {
+        "name": "React",
+        "icon": "/src/assets/icons/reactL.jpg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "/src/assets/icons/tailwindL.jpg"
+      },
+      {
+        "name": "SASS",
+        "icon": "/src/assets/icons/sassL.jpg"
+      }
+    ],
+
+    
+    "backend": [
+      {
+        "name": "Node.js",
+        "icon": "/src/assets/icons/nodejsL.jpg"
+      },
+      {
+        "name": "SQL",
+        "icon": "/src/assets/icons/sqlL.jpg"
+      },
+      {
+        "name": "Git",
+        "icon": "/src/assets/icons/gitL.jpg"
+      },
+      {
+        "name": "VS Code",
+        "icon": "/src/assets/icons/vsL.jpg"
+      }
+    ]
+  }
+  
