@@ -11,8 +11,8 @@ import Slider from "react-slick";
 import list from "../assets/list.json";
 
 function Project() {
-    const filterData = list.filter((data) => data.category === "Free");
-    
+  const filterData = list.filter((data) => data.category === "Free");
+
 
   const [nav2, setNav2] = useState(null);
   let sliderRef2 = useRef(null);
@@ -20,33 +20,42 @@ function Project() {
   useEffect(() => {
     setNav2(sliderRef2);
   }, []);
-    return (
-        <>
-            <div className=''>
-                <div className='text-6xl text-center text-indigo-400'>Projects</div>
-                <br />
-                <p className='text-center text-red-800'>Things I’ve built so far</p>
-            </div>
-            
-            {/* slider */}
-            <div>
-            
-      <h4>Second Slider</h4>
-      <Slider
-        ref={slider => (sliderRef2 = slider)}
-        slidesToShow={3}
-        swipeToSlide={true}
-        focusOnSelect={true}
-        className="" // <-- Important
-      >
+  return (
+    <>
+      <div className=''>
+        <div className='text-6xl text-center text-indigo-400'>Projects</div>
+        <br />
+        <p className='text-center text-red-800'>Things I’ve built so far</p>
+      </div>
 
-        {filterData.map((item) => (
+      {/* slider */}
+      <div>
+
+        <h4>Second Slider</h4>
+        <Slider
+          ref={slider => (sliderRef2 = slider)}
+          slidesToShow={3}
+          swipeToSlide={true}
+          focusOnSelect={true}
+          infinite={false}  // ✅ yeh line add kar di
+          className="" // <-- Important
+          responsive={[
+            {
+              breakpoint: 768,  // mobile devices
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ]}
+        >
+
+          {filterData.map((item) => (
             <Card item={item} key={item.id} />
-        ))}
-      </Slider>
-            </div>
-        </>
-    )
+          ))}
+        </Slider>
+      </div>
+    </>
+  )
 }
 
 export default Project

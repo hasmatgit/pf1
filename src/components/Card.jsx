@@ -2,27 +2,20 @@ import React from 'react'
 
 function Card({ item }) {
     // console.log(item);
-    
+
     return (
         <>
-            {/* card */}
-            <div>
-                <div className="card bg-base-100 w-96 shadow-xl">
-                    <figure>
-                        <img
-                            src={item.image}
-                            alt="Shoes" />
-                    </figure>
-                    <div className="card-body">
-                        <h2 className="card-title">
-                            Shoes!
-                            <div className="badge badge-secondary">NEW</div>
-                        </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-end">
-                            <div className="badge badge-outline">Fashion</div>
-                            <div className="badge badge-outline">Products</div>
-                        </div>
+            <div className="ml-10 card bg-base-100 md:w-96 w-80 shadow-sm">
+                <figure>
+                    <img
+                        src={item.image}
+                        alt="Shoes" />
+                </figure>
+                <div className="card-body">
+                    <h2 className="card-title">Card Title</h2>
+                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    <div className="card-actions justify-center">
+                        <button className="btn btn-primary">Buy Now</button>
                     </div>
                 </div>
             </div>
