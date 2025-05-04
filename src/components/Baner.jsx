@@ -18,7 +18,7 @@ function Baner() {
             developer,<br />
             I build things
           </p>
-          <p className=" md:ml-36 text-sm font-medium lg:text-lg dark:text-white px-14"
+          <p className=" md:ml-36 text-sm font-medium lg:text-lg px-14"
           >Welcome to my digital space! I'm Md Hasmat, a passionate full-stack developer with a flair for crafting digital experiences.
           </p>
           <div className="flex md:ml-28 space-x-8 md:space-x-6 ml-0 justify-center mt-4 flex-wrap w-full">
