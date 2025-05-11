@@ -1,0 +1,109 @@
+
+{
+    "frontend": [
+      {
+        "name": "HTML",
+        "icon": "/src/assets/icons/htmlL.jpg"
+      },
+      {
+        "name": "CSS",
+        "icon": "/src/assets/icons/cssL.jpg"
+      },
+      {
+        "name": "REACT",
+        "icon": "/src/assets/icons/reactL.jpg"
+      },
+      {
+        "name": "SASS",
+        "icon": "/src/assets/icons/sassL.jpg"
+      },
+      {
+        "name": "TAILWIND",
+        "icon": "/src/assets/icons/tailwindL.jpg"
+      }
+    ],
+
+    
+    "backend": [
+      {
+        "name": "NODE",
+        "icon": "/src/assets/icons/nodejsL1.jpg"
+      },
+      {
+        "name": "EX",
+        "icon": "/src/assets/icons/exL.jpg"
+      },
+      {
+        "name": "JS",
+        "icon": "/src/assets/icons/jsL.jpg"
+      },
+      {
+        "name": "TYPESCRIPT",
+        "icon": "/src/assets/icons/typescriptL.jpg"
+      }
+    ],
+
+
+    "database": [
+      {
+        "name": "SQL",
+        "icon": "/src/assets/icons/sqlL1.jpg"
+      },
+      {
+        "name": "MONGODB",
+        "icon": "/src/assets/icons/mongodb1L.jpg"
+      }
+    ],
+
+
+
+    "language": [
+      {
+        "name": "JAVA",
+        "icon": "/src/assets/icons/javaL.jpg"
+      },
+      {
+        "name": "C",
+        "icon": "/src/assets/icons/cL.jpg"
+      },
+      {
+        "name": "CPP",
+        "icon": "/src/assets/icons/c++L.jpg"
+      },
+      {
+        "name": "PYHTON",
+        "icon": "/src/assets/icons/pythonL.jpg"
+      }
+    ],
+
+
+
+    "cloud": [
+      {
+        "name": "CLOUD",
+        "icon": "/src/assets/icons/cloudL.jpg"
+      },
+      {
+        "name": "AWS",
+        "icon": "/src/assets/icons/awsL.png"
+      }
+    ],
+
+
+
+    "devops": [
+      {
+        "name": "GIT",
+        "icon": "/src/assets/icons/git1L.jpg"
+      },
+      {
+        "name": "DOCKER",
+        "icon": "/src/assets/icons/docker1L.jpg"
+      },
+      {
+        "name": "LINUX",
+        "icon": "/src/assets/icons/linuxL.jpg"
+      }
+    ]
+  }
+  
