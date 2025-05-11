@@ -1,10 +1,10 @@
 import React from "react";
 import myImage from "../assets/myImage.jpg"
-import resume from "../assets/resume/Resume_sample.pdf"
-import instagram from "../assets/icons/instagramL.png"
-import x from "../assets/icons/xL.png"
-import github from "../assets/icons/githubL.png"
-import linkedin from "../assets/icons/linkedinL.png"
+import resume from "../assets/resume/hasmat resume 3.pdf"
+import instagram from "../assets/icons/instagram.png"
+import x from "../assets/icons/x.png"
+import github from "../assets/icons/git.jpg"
+import linkedin from "../assets/icons/linkedin.png"
 
 function Baner() {
   return (
@@ -22,16 +22,16 @@ function Baner() {
           >Welcome to my digital space! I'm Md Hasmat, a passionate full-stack developer with a flair for crafting digital experiences.
           </p>
           <div className="flex md:ml-28 space-x-8 md:space-x-6 ml-0 justify-center mt-4 flex-wrap w-full">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/hasmatgit" target="_blank" rel="noopener noreferrer">
               <img src={github} alt="github" className="h-8 w-8" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="linkedin" className="h-8 w-8" />
             </a>
-            <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/one_hasmat" target="_blank" rel="noopener noreferrer">
               <img src={x} alt="x" className="h-8 w-8" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/one_hasmat/" target="_blank" rel="noopener noreferrer">
               <img src={instagram} alt="instagram" className="h-8 w-8" />
             </a>
             {/* resume */}

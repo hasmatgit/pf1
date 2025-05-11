@@ -154,20 +154,86 @@
 
 
 
-
 import React from "react";
-import skills from "../data/skills.json";
+// 📦 Importing all skill icons
+import aws from "../assets/icons/aws.png";
+import c from "../assets/icons/c.jpg";
+import cloud from "../assets/icons/cloud.jpg";
+import cpp from "../assets/icons/cpp.jpg";
+import css from "../assets/icons/css.jpg";
+import docker from "../assets/icons/docker1.jpg";
+import ex from "../assets/icons/ex.jpg";
+import git from "../assets/icons/git1.jpg";
+import html from "../assets/icons/html.jpg";
+import instagram from "../assets/icons/instagram.png";
+import java from "../assets/icons/java.jpg";
+import js from "../assets/icons/js.jpg";
+import linkedin from "../assets/icons/linkedin.png";
+import linux from "../assets/icons/linux.jpg";
+import mongodb from "../assets/icons/mongodb1.jpg";
+import node from "../assets/icons/nodejs1.jpg";
+import python from "../assets/icons/python.jpg";
+import react from "../assets/icons/react.jpg";
+import sass from "../assets/icons/sass.jpg"
+import tailwind from "../assets/icons/tailwind.jpg"
+import ts from "../assets/icons/ts.jpg"
+import sql from "../assets/icons/sql.jpg"
+
+// 🧠 Skills data directly in JS
+const sections = [
+  {
+    title: "Frontend Skills",
+    data: [
+      { name: "HTML", icon: html },
+      { name: "CSS", icon: css },
+      { name: "REACT", icon: react },
+      { name: "SASS", icon: sass },
+      { name: "TAILWIND", icon: tailwind },
+    ],
+  },
+  {
+    title: "Backend Skills",
+    data: [
+      { name: "NODE", icon: node },
+      { name: "EX", icon: ex },
+      { name: "JS", icon: js },
+      { name: "TS", icon: ts },
+    ],
+  },
+  {
+    title: "Database",
+    data: [
+      { name: "MONGODB", icon: mongodb },
+      { name: "SQL", icon: sql },
+    ],
+  },
+  {
+    title: "Languages",
+    data: [
+      { name: "JAVA", icon: java },
+      { name: "C", icon: c },
+      { name: "CPP", icon: cpp },
+      { name: "PYHTON", icon: python },
+    ],
+  },
+  {
+    title: "Cloud Skills",
+    data: [
+      { name: "CLOUD", icon: cloud },
+      { name: "AWS", icon: aws },
+    ],
+  },
+  {
+    title: "DevOps Skills",
+    data: [
+      { name: "GIT", icon: git },
+      { name: "DOCKER", icon: docker },
+      { name: "LINUX", icon: linux },
+    ],
+  },
+];
 
 function Stack() {
-  const sections = [
-    { title: "Frontend Skills", data: skills.frontend },
-    { title: "Backend Skills", data: skills.backend },
-    { title: "Database", data: skills.database },
-    { title: "Languages", data: skills.language },
-    { title: "Cloud Skills", data: skills.cloud },
-    { title: "DevOps Skills", data: skills.devops },
-  ];
-
   return (
     <>
       <div className="my-18 md:my-auto">
@@ -208,4 +274,3 @@ function Stack() {
 }
 
 export default Stack;
-
