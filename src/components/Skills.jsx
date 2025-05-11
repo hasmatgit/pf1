@@ -236,9 +236,9 @@ const sections = [
 function Stack() {
   return (
     <>
-      <div className="my-18 md:my-auto">
+      <div className="mt-44 md:my-auto">
         <h1 className="bg-pink- text-center text-4xl font-extrabold text-gray-800 md:mb-10">
-          🚀Skills
+          Skills🚀
         </h1>
       </div>
 
